@@ -32,15 +32,15 @@ $GLOBALS['discordWebHookAvatar'] = "";
 // Configure the below notification settings to meet the requirements of your team and what you wish to send to the Discord channel. 'true' = enabled, 'false' = disabled
 
 // Invoice Notifications
-$invoicePaid = false; // Invoice Paid Notification
+$invoicePaid = true; // Invoice Paid Notification
 $invoiceRefunded = false; // Invoice Refunded Notification
 $invoiceLateFee = false; // Invoice Late Fee Notification
 
 // Order Notifications
-$orderAccepted = false; // Order Accepted Notification
-$orderCancelled = false; // Order Cancelled Notification
-$orderCancelledRefunded = false; // Order Cancelled & Refunded Notification
-$orderFraud = false; // Order Marked As Fraud Notification
+$orderAccepted = true; // Order Accepted Notification
+$orderCancelled = true; // Order Cancelled Notification
+$orderCancelledRefunded = true; // Order Cancelled & Refunded Notification
+$orderFraud = true; // Order Marked As Fraud Notification
 
 // Network Issue Notifications
 $networkIssueAdd = true; // New Network Issue Added Notification
@@ -54,7 +54,7 @@ $ticketFlagged = true; // Ticket Flagged To Staff Member Notification
 $ticketNewNote = true; // New Note Added To Ticket Notification
 
 // Miscellaneous Notifications
-$cancellationRequest = false; // New Cancellation Request Received Notification
+$cancellationRequest = true; // New Cancellation Request Received Notification
 
 ///////////////////////////////////////////////////////////////////////
 
